@@ -6,4 +6,6 @@ elseif game.PlaceId == 5306359293 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/island%20of%20move.lua", true))()
 elseif game.PlaceId == 6901029464 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/Mansion%20of%20wonder.lua", true))() 
+elseif game.Place == 8526353932 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/McLaren%20F1%20Racing%20Experience.lua", true))()
 end
