@@ -3,5 +3,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limite
 elseif game.PlaceId == 7655745946 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/Dunking%20Simulator.lua", true))()
 elseif game.PlaceId == 5306359293 then
-loadstring(game:HttpGet("", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/island%20of%20move.lua", true))()
 end
