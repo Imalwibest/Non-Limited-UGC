@@ -10,4 +10,6 @@ elseif game.Place == 8526353932 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/McLaren%20F1%20Racing%20Experience.lua", true))()
 elseif game.PlaceId == 6225076142 or game.PlaceId == 6403132498 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/8th%20Annual%20Bloxy%20Awards.lua", true))()
+elseif game.PlaceId == 10146432319 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/Guacathon.lua", true))()
 end
