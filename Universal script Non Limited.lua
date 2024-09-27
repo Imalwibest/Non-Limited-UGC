@@ -19,5 +19,12 @@ elseif game.PlaceId == 2546610365 or game.PlaceId == 1871632192 or game.PlaceId 
     -- 2546610365: https://www.roblox.com/games/2546610365/
     -- 1871632192: https://www.roblox.com/games/1871632192/
     -- 4201429814: https://www.roblox.com/games/4201429814/
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/Roblox%20Creator%20Challenge%201%20script%20all%20game.lua", true))()    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/Roblox%20Creator%20Challenge%201%20script%20all%20game.lua", true))()  
+elseif game.PlaceId == 9377039667 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/Roblox%20Innovation%20Awards%20Voting%20Hub.lua", true))()
+elseif game.PlaceId == 1 then
+loadstring(game:HttpGet("", true))()
+elseif game.PlaceId == 1 then
+loadstring(game:HttpGet("", true))()
+elseif game.PlaceId == 1 then
 end
