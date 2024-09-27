@@ -1,4 +1,4 @@
-If game.PlaceId == 8967359816 then
+if game.PlaceId == 8967359816 then
 
 local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace") 
