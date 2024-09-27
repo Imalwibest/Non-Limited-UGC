@@ -12,4 +12,6 @@ elseif game.PlaceId == 6225076142 or game.PlaceId == 6403132498 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/8th%20Annual%20Bloxy%20Awards.lua", true))()
 elseif game.PlaceId == 10146432319 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/Guacathon.lua", true))()
+elseif game.PlaceId == 10956766913 then 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/SHEIN%20x%20Klarna%20Wonderland%20New%20Quest.lua", true))()
 end
