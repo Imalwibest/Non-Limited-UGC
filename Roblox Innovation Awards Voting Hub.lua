@@ -1,3 +1,4 @@
+if game.PlaceId == 9377039667 thenn
     local tweenInfo = TweenInfo.new(2)
     local goal = {CFrame = CFrame.new(-3, 23, -116)}
     local tween = game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, tweenInfo, goal)
@@ -23,3 +24,12 @@ wait(1)
     tween:Play()
 wait(3) 
 game.Players.LocalPlayer.Character:PivotTo(CFrame.new(Vector3.new(95, 168, -151)))
+wait(2) 
+local ts = game:GetService("TeleportService")
+
+local p = game:GetService("Players").LocalPlayer
+
+ 
+
+ts:Teleport(game.PlaceId, p)
+end
