@@ -1,4 +1,4 @@
-if game.PlaceId == 9377039667 thenn
+if game.PlaceId == 9377039667 then
     local tweenInfo = TweenInfo.new(2)
     local goal = {CFrame = CFrame.new(-3, 23, -116)}
     local tween = game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, tweenInfo, goal)
