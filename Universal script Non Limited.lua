@@ -15,7 +15,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limite
 elseif game.PlaceId == 10956766913 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/SHEIN%20x%20Klarna%20Wonderland%20New%20Quest.lua", true))()
 elseif game.PlaceId == 2546610365 or game.PlaceId == 1871632192 or game.PlaceId == 4201429814 then
-if game.PlaceId == 2546610365 or game.PlaceId == 1871632192 or game.PlaceId == 4201429814 then
     -- Game 3 For limited Non Limited
     -- 2546610365: https://www.roblox.com/games/2546610365/
     -- 1871632192: https://www.roblox.com/games/1871632192/
