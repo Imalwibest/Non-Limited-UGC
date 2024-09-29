@@ -1,3 +1,4 @@
+if not game:IsLoaded() then game.Loaded:Wait() end
 local cloneref = cloneref or function(...) return ... end
 local MarketplaceService = cloneref(game:GetService("MarketplaceService")) 
 local ID = MarketplaceService:GetProductInfo(game.PlaceId).Name
@@ -18,7 +19,7 @@ local function sendNotification(title, text)
         Title = title,
         Text = text,
         Icon = 'http://www.roblox.com/asset/?id=8904334671',
-        Duration = 5,
+        Duration = 10,
     })
 end
 sendNotification('Detected Place:', 'Please Wait! We Check The Place Name:' .. ID)
