@@ -3,8 +3,8 @@ local MarketplaceService = cloneref(game:GetService("MarketplaceService"))
 local ID = MarketplaceService:GetProductInfo(game.PlaceId).Name
 
 local function playNotificationSound()
-    local soundService = game:GetService("SoundService")
-    local notificationSound = Instance.new("Sound")
+    local soundService = cloneref(game:GetService("SoundService")) 
+    local notificationSound = cloneref(Instance.new("Sound")) 
     
     notificationSound.SoundId = "rbxassetid://8745692251"
     notificationSound.Volume = 0.5
@@ -14,14 +14,14 @@ local function playNotificationSound()
 end
 
 local function sendNotification(title, text)
-    game:GetService('StarterGui'):SetCore('SendNotification', {
+    cloneref(game:GetService('StarterGui')):SetCore('SendNotification', {
         Title = title,
         Text = text,
         Icon = 'http://www.roblox.com/asset/?id=8904334671',
         Duration = 5,
     })
 end
-sendNotification('Detected Place:', 'Running This Place! ' .. ID)
+sendNotification('Detected Place:', 'Please Wait! We Check The Place Name:' .. ID)
 playNotificationSound()
 wait(1) 
 if game.PlaceId == 7603178367 or game.PlaceId == 9298854137 then
@@ -53,4 +53,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limite
 else
     sendNotification('Unsupported Game', 'This game is not supported. Try again.')
     playNotificationSound()
+setclipboard("https://discord.gg/8Eb9CWC7jQ")
 end
+setclipboard("https://discord.gg/8Eb9CWC7jQ")
