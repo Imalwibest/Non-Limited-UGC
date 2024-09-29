@@ -48,6 +48,8 @@ elseif game.PlaceId == 7619937171 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/Tai%20Verdes%20Concert%20Experience.lua", true))()
 elseif game.PlaceId == 8967359816 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limited-UGC/refs/heads/main/24kGoldn%20Concert%20Experience.lua", true))()
+elseif game.PlaceId == 7541759836 then
+loadstring(game:HttpGet("", true))()
 else
     sendNotification('Unsupported Game', 'This game is not supported. Try again.')
     playNotificationSound()
