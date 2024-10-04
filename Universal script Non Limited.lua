@@ -56,6 +56,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Non-Limite
 else
 sendNotification('Unsupported Game', 'This game is not supported. Try again.')
     playNotificationSound()
-setclipboard("https://discord.gg/8Eb9CWC7jQ")
+setclipboard("https://discord.gg/pU8tNc9WpJ")
 end
-setclipboard("https://discord.gg/8Eb9CWC7jQ")
+setclipboard("https://discord.gg/pU8tNc9WpJ")
