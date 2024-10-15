@@ -17,4 +17,4 @@ cloneref(game:GetService("StarterGui")):SetCore("SendNotification", {
  Icon = "rbxthumb://type=Asset&id=109961234630242&w=150&h=150"})
 Duration = 10;
 wait() 
-setclipboard("https://discord.gg/HjvgkBg66v") 
+setclipboard("https://discord.gg/8Eb9CWC7jQ") 
